@@ -1,0 +1,40 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    /* position: absolute */
+}
+
+.generate {
+    height: 4vh;
+    width: 15vw;
+    color: white;
+    background-color: #5865f2;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.info {
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    border-radius: 10px;
+}
+.info input {
+    margin-top: -200px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
